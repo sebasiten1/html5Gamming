@@ -1,0 +1,77 @@
+body {
+    background:url(https://i.pinimg.com/originals/86/be/22/86be2265dfbc8d2e33785829efa34a3d.jpg);
+    background-size: 100vh;
+ }
+ .title{
+     margin-top:4%;
+     text-align: center;
+     color: red;
+ }
+ .subTitle{
+     color: yellow;
+     margin-bottom: 3%;
+ }
+ 
+ #rules{
+     margin-top: 5%;
+     margin-bottom:2%;
+     margin-left: 25%;
+     margin-right:25%;
+     display: none;
+     color: rgb(243, 243, 250);
+ }
+ .gameOptions{
+     margin-top:5%;
+     text-align: center;
+ 
+ }
+ #setGame{
+     margin-top: 5%;
+     margin-bottom:2%;
+     margin-left: 15%;
+     margin-right:15%;
+     display: none;
+     color: rgb(37, 37, 248);
+ }
+ #options{
+     display: none;
+     color: rgb(37, 37, 248);
+ }
+ .menuButton{
+     margin-top:5%;
+     text-align: center;
+ }
+ .Button {
+     border: 0;
+     line-height: 2.5;
+     padding: 0 20px;
+     font-size: 1rem;
+     text-align: center;
+     color: #fff;
+     text-shadow: 1px 1px 1px #000;
+     border-radius: 10px;
+     background-color: rgba(220, 0, 0, 1);
+     background-image: linear-gradient(to top left,
+                                       rgba(0, 0, 0, .2),
+                                       rgba(0, 0, 0, .2) 30%,
+                                       rgba(0, 0, 0, 0));
+     box-shadow: inset 2px 2px 3px rgba(255, 255, 255, .6),
+                 inset -2px -2px 3px rgba(0, 0, 0, .6);
+ }
+ 
+ .Button:hover {
+     background-color: rgba(255, 0, 0, 1);
+ }
+ 
+ .Button:active {
+     box-shadow: inset -2px -2px 3px rgba(255, 255, 255, .6),
+                 inset 2px 2px 3px rgba(0, 0, 0, .6);
+ }
+  #pacman {
+    height:450px;
+    width:342px;
+    margin:20px auto;
+  }
+  footer{
+      color: #fff;
+  }
